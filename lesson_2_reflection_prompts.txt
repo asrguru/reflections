@@ -16,9 +16,11 @@ organized? How would branches help?
 	When trying something experimental or making a different version
 
 How do the diagrams help you visualize the branch structure?
-
+	Easier to think about the changes (less complicated overall picture of the changes)
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
-
+	You end up with one branch instead of two: Just because
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+	Pro - it can protect against saving too many changes in one commit (harder to go back and debug)
+	Con - it could be better to have logic behind each recorded commit
